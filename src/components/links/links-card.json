@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_links_links_cards",
+  "info": {
+    "displayName": "links.card"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "paragraph": {
+      "type": "text"
+    },
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "link": {
+      "type": "string"
+    },
+    "gradient_start": {
+      "type": "string"
+    },
+    "gradient_end": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

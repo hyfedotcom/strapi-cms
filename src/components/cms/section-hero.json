@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_cms_section_heroes",
+  "info": {
+    "displayName": "section.hero"
+  },
+  "options": {},
+  "attributes": {
+    "sub_heading": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "component",
+      "component": "content.content-paragraph",
+      "repeatable": true
+    },
+    "cta": {
+      "type": "component",
+      "component": "ui.ui-cta",
+      "repeatable": true
+    },
+    "media": {
+      "type": "component",
+      "component": "media.media-video",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

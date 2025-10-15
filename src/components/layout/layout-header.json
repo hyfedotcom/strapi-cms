@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_layout_layout_headers",
+  "info": {
+    "displayName": "layout.header"
+  },
+  "options": {},
+  "attributes": {
+    "nav_links": {
+      "type": "component",
+      "component": "links.links-nav",
+      "repeatable": true
+    },
+    "cta": {
+      "type": "component",
+      "component": "ui.ui-cta",
+      "repeatable": false,
+      "required": true
+    }
+  },
+  "config": {}
+}

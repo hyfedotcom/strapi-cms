@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_media_media_zones",
+  "info": {
+    "displayName": "media.zone"
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "type": "enumeration",
+      "required": true,
+      "default": "video",
+      "enum": [
+        "video",
+        "image"
+      ]
+    },
+    "video": {
+      "type": "component",
+      "conditions": {
+        "visible": {
+          "==": [
+            {
+              "var": "media"
+            },
+            "video"
+          ]
+        }
+      },
+      "component": "media.media-video",
+      "repeatable": false,
+      "required": true
+    },
+    "image": {
+      "type": "component",
+      "conditions": {
+        "visible": {
+          "==": [
+            {
+              "var": "media"
+            },
+            "image"
+          ]
+        }
+      },
+      "component": "media.media-image",
+      "repeatable": false,
+      "required": true
+    }
+  },
+  "config": {}
+}

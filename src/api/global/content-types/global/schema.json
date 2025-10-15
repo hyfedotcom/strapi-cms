@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "globals",
+  "info": {
+    "singularName": "global",
+    "pluralName": "globals",
+    "displayName": "global"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "site": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::site.site"
+    },
+    "header": {
+      "type": "component",
+      "component": "layout.layout-header",
+      "repeatable": false
+    },
+    "footer": {
+      "type": "component",
+      "component": "layout.layout-footer",
+      "repeatable": false
+    },
+    "general_setting": {
+      "type": "component",
+      "component": "layout.layout-general-settings",
+      "repeatable": false
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "collectionName": "components_seo_seo_metas",
+  "info": {
+    "displayName": "seo.meta"
+  },
+  "options": {},
+  "attributes": {
+    "is_indexable": {
+      "type": "boolean",
+      "default": true
+    },
+    "meta_title": {
+      "type": "string",
+      "conditions": {
+        "visible": {
+          "==": [
+            {
+              "var": "is_indexable"
+            },
+            true
+          ]
+        }
+      },
+      "required": false
+    },
+    "meta_description": {
+      "type": "text",
+      "conditions": {
+        "visible": {
+          "!=": [
+            {
+              "var": "is_indexable"
+            },
+            false
+          ]
+        }
+      },
+      "required": false
+    },
+    "meta_image": {
+      "type": "media",
+      "conditions": {
+        "visible": {
+          "!=": [
+            {
+              "var": "is_indexable"
+            },
+            false
+          ]
+        }
+      },
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "keywords": {
+      "type": "text",
+      "conditions": {
+        "visible": {
+          "!=": [
+            {
+              "var": "is_indexable"
+            },
+            false
+          ]
+        }
+      }
+    },
+    "meta_robots": {
+      "type": "string",
+      "conditions": {
+        "visible": {
+          "!=": [
+            {
+              "var": "is_indexable"
+            },
+            false
+          ]
+        }
+      }
+    },
+    "meta_viewport": {
+      "type": "string",
+      "conditions": {
+        "visible": {
+          "!=": [
+            {
+              "var": "is_indexable"
+            },
+            false
+          ]
+        }
+      }
+    },
+    "canonical_URL": {
+      "type": "string",
+      "conditions": {
+        "visible": {
+          "!=": [
+            {
+              "var": "is_indexable"
+            },
+            false
+          ]
+        }
+      }
+    },
+    "structured_data": {
+      "type": "json",
+      "conditions": {
+        "visible": {
+          "!=": [
+            {
+              "var": "is_indexable"
+            },
+            false
+          ]
+        }
+      }
+    }
+  },
+  "config": {}
+}

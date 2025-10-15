@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_layout_layout_footers",
+  "info": {
+    "displayName": "layout.footer"
+  },
+  "options": {},
+  "attributes": {
+    "columns": {
+      "type": "component",
+      "component": "links.column",
+      "repeatable": true
+    },
+    "policy_links": {
+      "type": "component",
+      "component": "links.links-nav",
+      "repeatable": true
+    },
+    "copyright": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

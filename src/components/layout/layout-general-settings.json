@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_layout_layout_general_settings",
+  "info": {
+    "displayName": "layout.general_settings"
+  },
+  "options": {},
+  "attributes": {
+    "logo_full": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "logo_icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "social_media": {
+      "type": "component",
+      "component": "links.links-social",
+      "repeatable": true
+    },
+    "favicon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

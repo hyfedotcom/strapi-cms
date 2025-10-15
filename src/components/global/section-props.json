@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_global_section_props",
+  "info": {
+    "displayName": "section.cards"
+  },
+  "options": {},
+  "attributes": {
+    "admin_label": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string",
+      "required": false
+    },
+    "sub_heading": {
+      "type": "string"
+    },
+    "content": {
+      "type": "component",
+      "component": "content.content-paragraph",
+      "repeatable": true
+    },
+    "cta": {
+      "type": "component",
+      "component": "ui.ui-cta",
+      "repeatable": true
+    },
+    "card": {
+      "type": "component",
+      "component": "ui.ui-card-simple",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

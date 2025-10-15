@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_ui_ui_ctas",
+  "info": {
+    "displayName": "ui.cta"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "color": {
+      "type": "enumeration",
+      "required": true,
+      "default": "primary",
+      "enum": [
+        "primary",
+        "white",
+        "gradient"
+      ]
+    },
+    "link": {
+      "type": "string",
+      "default": "/",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "required": true,
+      "default": "default",
+      "enum": [
+        "default",
+        "arrow-right",
+        "arrow-bottom"
+      ]
+    },
+    "variant": {
+      "type": "enumeration",
+      "required": true,
+      "default": "solid",
+      "enum": [
+        "solid",
+        "outline"
+      ]
+    }
+  },
+  "config": {}
+}

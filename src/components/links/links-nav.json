@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_links_links_navs",
+  "info": {
+    "displayName": "links.nav"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

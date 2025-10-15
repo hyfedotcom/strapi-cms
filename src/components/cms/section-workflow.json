@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_cms_section_workflows",
+  "info": {
+    "displayName": "section.workflow"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "sub_heading": {
+      "type": "string"
+    },
+    "content": {
+      "type": "component",
+      "component": "content.content-paragraph",
+      "repeatable": true
+    },
+    "cta": {
+      "type": "component",
+      "component": "ui.ui-cta",
+      "repeatable": true
+    },
+    "card": {
+      "type": "component",
+      "component": "ui.ui-card-simple",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

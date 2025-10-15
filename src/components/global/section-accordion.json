@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_global_section_accordions",
+  "info": {
+    "displayName": "section.accordion"
+  },
+  "options": {},
+  "attributes": {
+    "admin_label": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "sub_heading": {
+      "type": "string"
+    },
+    "content": {
+      "type": "component",
+      "component": "content.content-paragraph",
+      "repeatable": true
+    },
+    "cta": {
+      "type": "component",
+      "component": "ui.ui-cta",
+      "repeatable": true
+    },
+    "card": {
+      "type": "component",
+      "component": "ui.ui-card-simple",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

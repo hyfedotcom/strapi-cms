@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "pluginOptions": {
+        "content-manager": {
+          "visible": false
+        },
+        "content-type-builder": {
+          "visible": false
+        }
+      },
+      "targetField": "title",
+      "required": true
+    },
+    "site": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::site.site"
+    },
+    "dynamic_zone": {
+      "type": "dynamiczone",
+      "components": [
+        "cms.section-hero",
+        "cms.section-workflow",
+        "global.section-partners",
+        "global.section-props",
+        "global.section-accordion",
+        "global.section-testimonial",
+        "global.section-links",
+        "global.section-cta",
+        "global.section-rich-text"
+      ]
+    },
+    "seo": {
+      "type": "component",
+      "component": "seo.seo-meta",
+      "repeatable": false
+    }
+  }
+}

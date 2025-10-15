@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_global_section_links",
+  "info": {
+    "displayName": "section.links"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "sub_heading": {
+      "type": "string"
+    },
+    "content": {
+      "type": "component",
+      "component": "content.content-paragraph",
+      "repeatable": true
+    },
+    "cta": {
+      "type": "component",
+      "component": "ui.ui-cta",
+      "repeatable": true
+    },
+    "card": {
+      "type": "component",
+      "component": "links.links-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
