@@ -9,7 +9,8 @@ export interface CmsSectionHero extends Struct.ComponentSchema {
     content: Schema.Attribute.Component<'content.content-paragraph', true>;
     cta: Schema.Attribute.Component<'ui.ui-cta', true>;
     heading: Schema.Attribute.String & Schema.Attribute.Required;
-    media: Schema.Attribute.Component<'media.media-video', false>;
+    media_mobile: Schema.Attribute.Component<'media.media-video', false>;
+    media_pc: Schema.Attribute.Component<'media.media-video', false>;
     sub_heading: Schema.Attribute.String;
   };
 }
@@ -63,7 +64,8 @@ export interface GlobalSectionCta extends Struct.ComponentSchema {
     cta: Schema.Attribute.Component<'ui.ui-cta', true>;
     heading: Schema.Attribute.String;
     sub_heading: Schema.Attribute.String;
-    video: Schema.Attribute.Component<'media.media-video', false>;
+    video_mobile: Schema.Attribute.Component<'media.media-video', false>;
+    video_pc: Schema.Attribute.Component<'media.media-video', false>;
   };
 }
 

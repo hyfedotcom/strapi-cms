@@ -21,7 +21,12 @@
       "component": "ui.ui-cta",
       "repeatable": true
     },
-    "video": {
+    "video_pc": {
+      "type": "component",
+      "component": "media.media-video",
+      "repeatable": false
+    },
+    "video_mobile": {
       "type": "component",
       "component": "media.media-video",
       "repeatable": false
