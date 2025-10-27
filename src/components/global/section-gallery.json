@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_global_section_galleries",
+  "info": {
+    "displayName": "section.gallery"
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    }
+  },
+  "config": {}
+}

@@ -69,6 +69,16 @@ export interface GlobalSectionCta extends Struct.ComponentSchema {
   };
 }
 
+export interface GlobalSectionGallery extends Struct.ComponentSchema {
+  collectionName: 'components_global_section_galleries';
+  info: {
+    displayName: 'section.gallery';
+  };
+  attributes: {
+    media: Schema.Attribute.Media<'images' | 'files', true>;
+  };
+}
+
 export interface GlobalSectionLinks extends Struct.ComponentSchema {
   collectionName: 'components_global_section_links';
   info: {
@@ -350,6 +360,7 @@ declare module '@strapi/strapi' {
       'content.content-paragraph': ContentContentParagraph;
       'global.section-accordion': GlobalSectionAccordion;
       'global.section-cta': GlobalSectionCta;
+      'global.section-gallery': GlobalSectionGallery;
       'global.section-links': GlobalSectionLinks;
       'global.section-partners': GlobalSectionPartners;
       'global.section-props': GlobalSectionProps;

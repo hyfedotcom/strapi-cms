@@ -489,6 +489,7 @@ export interface ApiPagePage extends Struct.CollectionTypeSchema {
         'global.section-links',
         'global.section-cta',
         'global.section-rich-text',
+        'global.section-gallery',
       ]
     >;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
