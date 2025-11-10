@@ -129,7 +129,7 @@ export interface GlobalSectionRichText extends Struct.ComponentSchema {
     displayName: 'section.rich-text';
   };
   attributes: {
-    content: Schema.Attribute.Blocks & Schema.Attribute.Required;
+    content: Schema.Attribute.Blocks & Schema.Attribute.DefaultTo<[]>;
   };
 }
 
