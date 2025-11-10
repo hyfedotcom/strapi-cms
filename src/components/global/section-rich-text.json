@@ -6,11 +6,7 @@
   "options": {},
   "attributes": {
     "content": {
-      "type": "richtext",
-      "required": true
-    },
-    "heading": {
-      "type": "string",
+      "type": "blocks",
       "required": true
     }
   },
