@@ -70,9 +70,7 @@ export default ({ env }) => {
           const pathname = getPreviewPathname(uid, { locale, document });
 
           // Disable preview if the pathname is not found
-          if (!pathname) {
-            return null;
-          }
+          if (!pathname) {}
 
           // Use Next.js draft mode passing it a secret key and the content-type status
           const urlSearchParams = new URLSearchParams({

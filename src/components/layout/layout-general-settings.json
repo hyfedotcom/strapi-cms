@@ -5,7 +5,7 @@
   },
   "options": {},
   "attributes": {
-    "logo_full": {
+    "logo_footer": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
@@ -15,7 +15,7 @@
         "audios"
       ]
     },
-    "logo_icon": {
+    "logo_header": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
@@ -29,16 +29,6 @@
       "type": "component",
       "component": "links.links-social",
       "repeatable": true
-    },
-    "favicon": {
-      "type": "media",
-      "multiple": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
     }
   },
   "config": {}

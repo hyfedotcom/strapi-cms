@@ -169,9 +169,12 @@ export interface LayoutLayoutGeneralSettings extends Struct.ComponentSchema {
     displayName: 'layout.general_settings';
   };
   attributes: {
-    favicon: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
-    logo_full: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
-    logo_icon: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    logo_footer: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios'
+    >;
+    logo_header: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios'
+    >;
     social_media: Schema.Attribute.Component<'links.links-social', true>;
   };
 }
