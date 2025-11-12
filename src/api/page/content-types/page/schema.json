@@ -45,7 +45,8 @@
         "global.section-links",
         "global.section-cta",
         "global.section-rich-text",
-        "global.section-gallery"
+        "global.section-gallery",
+        "global.section-rich-text-block"
       ]
     },
     "seo": {

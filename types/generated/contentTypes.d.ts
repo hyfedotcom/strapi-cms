@@ -490,6 +490,7 @@ export interface ApiPagePage extends Struct.CollectionTypeSchema {
         'global.section-cta',
         'global.section-rich-text',
         'global.section-gallery',
+        'global.section-rich-text-block',
       ]
     >;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
